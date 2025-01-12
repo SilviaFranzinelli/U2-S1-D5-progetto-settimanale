@@ -1,17 +1,164 @@
+/* HEADER */
 header {
     background-color: #ffc017;
     border-bottom: solid 1px;
-    display: flex;
-   
 }
 
 header div{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-right: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
+header div div{
+    display: flex;
+    font-family: roboto;
+}    
+
+header div img {
+    padding-top: 25px;
+}
+
+header div div p {
+    padding: 20px;
+    font-size: 15px;
+}
+header div div button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 7rem;
+    height: 45px;
+    margin-top: 5px;
+    font-family: roboto;
+
+}
+
+/* HERO */
 #hero {
     background-color: #ffc017;
-    border-bottom: solid 1px lightgray;
+    border-bottom: solid 1px gray;
+    height: 17rem;
+    
+}    
+
+#hero div {
+    margin-left: 10rem;
+    margin-right: 70px;
+    padding-top: 3rem;
+
 }
+
+h1 {
+    font-family: spectral;
+    font-size: 90px;
+    padding-bottom: 1rem;
+}
+
+#hero div p {
+    font-family: roboto;
+    max-width: 23rem;
+    font-size: 25px;
+    padding-bottom: 2rem;
+}
+
+#hero button {
+    background-color: black;
+    color: white;
+    width: 8rem;
+    border-radius: 50px;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* TRENDING */
+#riga{
+    border-bottom: solid 1px lightgray;
+} 
+
+#trendingTitle {
+    display: flex;
+    margin-top: 3rem;
+}
+#trendingTitle img{
+    margin-right: 8px;
+}
+
+#trendingTitle p {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+#trending {
+    margin-left: 10rem;
+    margin-right: 7rem;
+    margin-bottom: 60px;
+}
+
+#trendingArticles {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#n1, #n2, #n3, #n4, #n5, #n6 {
+    width: 33.33%;
+    display: flex;
+    margin-top: 30px;
+    max-width: 23rem; 
+    flex-grow: 1;
+}
+
+
+.number {
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: bolder;
+    color: lightgrey;
+    margin-right: 25px;
+
+}
+
+.articleWriter {
+    display: flex;
+
+}
+
+.articleWriter p {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 3px;
+
+
+}
+
+.articleWriter img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.article p {
+    font-family: roboto;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+.article div p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.article div {
+    display: flex;
+}
+
+/* ARTICOLI GROSSI + TAG */
+
