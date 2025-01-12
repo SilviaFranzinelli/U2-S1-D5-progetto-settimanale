@@ -76,6 +76,13 @@ h1 {
     padding-bottom: 8px;
 }
 
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 /* TRENDING */
 #riga{
     border-bottom: solid 1px lightgray;
@@ -98,8 +105,9 @@ h1 {
 
 #trending {
     margin-left: 10rem;
-    margin-right: 7rem;
+    margin-right: 10rem;
     margin-bottom: 60px;
+    
 }
 
 #trendingArticles {
@@ -160,5 +168,117 @@ h1 {
     display: flex;
 }
 
-/* ARTICOLI GROSSI + TAG */
+/* ARTICOLI GROSSI*/
 
+#bigArticle{
+    margin-left: 10rem;
+    max-width: 40rem;
+    margin-right: 6rem;
+}
+
+#secondPart {
+    display: flex;
+    margin-top: 30px;
+}
+.articleWriter2 {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.articleWriter2 p {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 13px;
+
+}
+
+.articleWriter2 img{
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.article2 {
+    display: flex;
+    font-family: roboto;
+    
+}
+.article2 div {
+   margin-right: 2rem; 
+}
+
+.textTitle {
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.image {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.text{
+    font-size: 17px;
+    color: gray;
+    padding-top: 10px;
+}
+
+.article2 div div{
+ font-size: 15px;
+ color: gray;
+ padding-top: 20px;
+ display: flex;
+}
+
+.bookmark {
+ margin-left: auto;
+}
+
+/* DISCOVER */
+
+#discover {
+    margin-right: 7rem;
+    font-family: roboto;
+    max-width: 30rem;
+}
+
+#discoverTitle {
+    font-family: roboto;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+#tag {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: solid 1px lightgray; 
+    
+}
+#tag p {
+    width: 33.33%;
+    flex: 1 1 33.33%; 
+    margin-top: 2rem;
+    color: gray;
+}
+#tag span {
+    border: solid 1px lightgray;
+    padding: 0.5rem;
+    
+}
+
+#links a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 1rem;
+    
+}
+
+#links{
+   
+    
+}
